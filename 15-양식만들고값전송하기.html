@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>양식 만들고 입력 정보 보내기</title>
+    </head>
+    <body>
+        <!-- 서버로 보내기 위한 액션 -->
+        <form action="none.com" method="post">
+
+            <label for="name">이름</label>
+            <input id="name" type="text" name="name">
+            <br>
+            <label for="age">나이</label>
+            <input id="age" type="number" name="age">
+            <br>
+            <label for="character">성격</label>
+            <textarea id="character" name="character"></textarea>
+
+            <input type="submit">
+            <!-- 제출 타입 => form에 있는 입력 값들을 보내는 역할 -->
+        </form>
+    </body>
+</html>
